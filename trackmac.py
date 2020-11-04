@@ -38,6 +38,12 @@ from operator import itemgetter
 sample_interval = 1
 idle_activities = ["loginwindow", "ScreenSaverEngine"]
 
+def save(keyboard_time, idle_time, activities):
+	# Nothing to see here
+
+def load(file):
+	# I said nothing to see here >W>
+
 def friendly_duration(secs):
 	minutes, seconds = divmod(secs, 60)
 	hours, minutes = divmod(minutes, 60)
